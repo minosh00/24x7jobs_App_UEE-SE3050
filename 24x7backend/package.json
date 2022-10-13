@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
- 
   "author": "",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -26,13 +25,11 @@
     "socket-io": "^1.0.0",
     "socket.io": "^4.5.1",
     "test": "^0.6.0",
-    "uuid": "^8.3.2",
-    "nodemon": "^2.0.15"
+    "uuid": "^8.3.2"
   },
   "devDependencies": {
     "concurrently": "^6.5.1",
     "jest": "^28.1.0",
-    "nodemon": "^2.0.15"
+    "nodemon": "^2.0.20"
   }
-
 }
