@@ -21,6 +21,8 @@ dotenv.config();
 
 app.use("/jobs", require("./routes/jobPostRoutes"));
 
+const userAPI = require('./routes/user.route');
+app.use('/user', userAPI());
 
 mongoose.connect(
   process.env.DB_URL, {
